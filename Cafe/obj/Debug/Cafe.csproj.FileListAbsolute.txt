@@ -1,0 +1,7 @@
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Cafe\bin\Debug\Cafe.exe.config
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Cafe\bin\Debug\Cafe.exe
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Cafe\bin\Debug\Cafe.pdb
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Cafe\obj\Debug\Cafe.exe
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Cafe\obj\Debug\Cafe.pdb
