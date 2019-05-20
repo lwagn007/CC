@@ -42,7 +42,7 @@ namespace BoggleScore
         {
             int multiplier = 1;
 
-            if (Letters.Length != 0)
+            if (Letters.Length >= 2)
             {
                 if (Letters.Length <= 4)
                 {

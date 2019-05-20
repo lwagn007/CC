@@ -1,0 +1,17 @@
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\BoggleScorer_Tests.dll
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\BoggleScorer_Tests.pdb
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\BoggleScore.exe
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\BoggleScore.pdb
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\BoggleScore.exe.config
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\obj\Debug\BoggleScorer_Tests.csprojAssemblyReference.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\obj\Debug\BoggleScorer_Tests.csproj.CoreCompileInputs.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\obj\Debug\BoggleScorer_Tests.csproj.CopyComplete
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\obj\Debug\BoggleScorer_Tests.dll
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScorer_Tests\obj\Debug\BoggleScorer_Tests.pdb

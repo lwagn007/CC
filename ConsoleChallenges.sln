@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims", "Claims\Claims.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleScore", "BoggleScore\BoggleScore.csproj", "{88485902-3391-4002-A0F7-FF83808EFF17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleScorer_Tests", "BoggleScorer_Tests\BoggleScorer_Tests.csproj", "{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{88485902-3391-4002-A0F7-FF83808EFF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88485902-3391-4002-A0F7-FF83808EFF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88485902-3391-4002-A0F7-FF83808EFF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Claims\bin\Debug\Claims.exe.config
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Claims\bin\Debug\Claims.exe
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Claims\bin\Debug\Claims.pdb
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Claims\obj\Debug\Claims.csprojAssemblyReference.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Claims\obj\Debug\Claims.csproj.CoreCompileInputs.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Claims\obj\Debug\Claims.exe
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\Claims\obj\Debug\Claims.pdb
