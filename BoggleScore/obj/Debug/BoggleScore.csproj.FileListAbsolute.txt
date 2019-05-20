@@ -1,0 +1,7 @@
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScore\bin\Debug\BoggleScore.exe.config
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScore\bin\Debug\BoggleScore.exe
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScore\bin\Debug\BoggleScore.pdb
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScore\obj\Debug\BoggleScore.csprojAssemblyReference.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScore\obj\Debug\BoggleScore.csproj.CoreCompileInputs.cache
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScore\obj\Debug\BoggleScore.exe
+C:\Users\lawre\source\repos\Code\cSharp\ConsoleChallenges\BoggleScore\obj\Debug\BoggleScore.pdb

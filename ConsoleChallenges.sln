@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe_Tests", "Cafe_Tests\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims", "Claims\Claims.csproj", "{E35532AD-6DAA-426D-B88D-ED0416615FCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleScore", "BoggleScore\BoggleScore.csproj", "{88485902-3391-4002-A0F7-FF83808EFF17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E35532AD-6DAA-426D-B88D-ED0416615FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E35532AD-6DAA-426D-B88D-ED0416615FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E35532AD-6DAA-426D-B88D-ED0416615FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88485902-3391-4002-A0F7-FF83808EFF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88485902-3391-4002-A0F7-FF83808EFF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88485902-3391-4002-A0F7-FF83808EFF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88485902-3391-4002-A0F7-FF83808EFF17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
