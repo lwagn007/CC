@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleScore", "BoggleScore\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoggleScorer_Tests", "BoggleScorer_Tests\BoggleScorer_Tests.csproj", "{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCapabilities", "MessagingCapabilities\MessagingCapabilities.csproj", "{6060320C-2CD8-48C7-9FF5-629EEDE4181C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77F2592-90F6-4F11-8C5A-381A2BF2CF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6060320C-2CD8-48C7-9FF5-629EEDE4181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6060320C-2CD8-48C7-9FF5-629EEDE4181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6060320C-2CD8-48C7-9FF5-629EEDE4181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6060320C-2CD8-48C7-9FF5-629EEDE4181C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

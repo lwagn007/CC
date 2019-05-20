@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E35532AD-6DAA-426D-B88D-ED0416615FCD}</ProjectGuid>
+    <ProjectGuid>{6060320C-2CD8-48C7-9FF5-629EEDE4181C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Claims</RootNamespace>
-    <AssemblyName>Claims</AssemblyName>
+    <RootNamespace>MessagingCapabilities</RootNamespace>
+    <AssemblyName>MessagingCapabilities</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Claim.cs" />
-    <Compile Include="ClaimRepository.cs" />
-    <Compile Include="IClaim.cs" />
-    <Compile Include="IClaimRepository.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ClaimsPrompt.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
