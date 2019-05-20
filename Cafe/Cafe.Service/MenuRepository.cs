@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Cafe
 {
@@ -14,7 +15,7 @@ namespace Cafe
         }
         public bool AddMenuItem(IMeal meal)
         {
-            if (meal != null)
+            if (meal.Price != 0 && !string.IsNullOrWhiteSpace(meal.Name) && !string.IsNullOrWhiteSpace(meal.Description) && meal.Ingredients.ToList().Count > 0)
             {
                 _menuId++;
                 _menu.Add(_menuId, meal);

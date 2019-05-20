@@ -4,13 +4,13 @@ namespace Cafe
 {
     public class Meal : IMeal
     {
-        public decimal Price { get; set; }
+        public decimal Price { get; set; } = 2.50m;
         public string Name { get; set; }
         public string Description { get; set; }
         public IEnumerable<string> Ingredients { get; set; }
         public Meal(decimal price, string name, string description, IEnumerable<string> ingredients)
         {
-            Price += price;
+            Price = price;
             Name = name;
             Description = description;
             Ingredients = ingredients;

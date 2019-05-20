@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cafe.Data\IMeal.cs" />
-    <Compile Include="Repository\IMenuRepository.cs" />
+    <Compile Include="Cafe.Service\IMenuRepository.cs" />
     <Compile Include="Cafe.Data\Meal.cs" />
-    <Compile Include="Repository\MenuRepository.cs" />
+    <Compile Include="Cafe.Service\MenuRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
