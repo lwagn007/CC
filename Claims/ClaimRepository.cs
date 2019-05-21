@@ -22,7 +22,6 @@ namespace Claims
             }
             return false;
         }
-
         public IClaim GetClaimById(int id)
         {
             foreach (var claim in _claims)
@@ -34,12 +33,10 @@ namespace Claims
             }
             return new Claim();
         }
-
         public IEnumerable<IClaim> GetClaims()
         {
             return _claims;
         }
-
         public Tuple<bool, IClaim> HandleClaim(bool removeClaim)
         {
             if (removeClaim == true)
@@ -49,7 +46,22 @@ namespace Claims
             }
             else return new Tuple<bool, IClaim>(false, new Claim());
         }
-
+        public ClaimType GetClaimType(int input)
+        {
+            var claimType = ClaimType.Car;
+            switch (input)
+            {
+                case 1:
+                    return claimType;
+                case 2:
+                    claimType = ClaimType.Home;
+                    break;
+                case 3:
+                    claimType = ClaimType.Theft;
+                    break;
+            }
+            return claimType;
+        }
         public IClaim SeeNextClaim()
         {
             return _claims.Peek();

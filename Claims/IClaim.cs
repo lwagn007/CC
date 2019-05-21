@@ -11,8 +11,8 @@ namespace Claims
         int Id { get; set; }
         string Description { get; set; }
         decimal Amount { get; set; }
-        DateTimeOffset DateOfIncidentUTC { get; set; }
-        DateTimeOffset DateOfClaimUTC { get; set; }
+        DateTime DateOfIncident { get; set; }
+        DateTime DateOfClaim { get; set; }
         bool IsValid { get; set; }
     }
 }

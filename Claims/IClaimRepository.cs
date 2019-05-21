@@ -13,5 +13,6 @@ namespace Claims
         IClaim GetClaimById(int id);
         Tuple<bool,IClaim> HandleClaim(bool removeClaim);
         IClaim SeeNextClaim();
+        ClaimType GetClaimType(int input);
     }
 }

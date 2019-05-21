@@ -15,7 +15,7 @@ namespace Claims
         }
         internal void Run()
         {
-            SeedData();
+            //SeedData();
             Console.WriteLine("Welcome to the Claims Handler! Press any key to continue.");
             Console.ReadKey();
             bool isRunning = true;
@@ -46,12 +46,38 @@ namespace Claims
                     return true;
             }
         }
-
         private void AddNewClaim()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Please fill out the following information.\n" +
+                "Claim ID: ");
+            int claimId = VerifyIntput();
+            bool success = false;
+            ClaimType claimType = ClaimType.Car;
+            while (!success)
+            {
+                Console.WriteLine("Claim Type: " +
+                    "1. Car\n" +
+                    "2. Home\n" +
+                    "3. Theft");
+                int input = VerifyIntput();
+                
+                if (input >= 1 && input <= 3)
+                {
+                    claimType = _claimRepo.GetClaimType(input);
+                    success = true;
+                }
+            }
+            Console.WriteLine("Enter Description: ");
+            string description = Console.ReadLine();
+            Console.WriteLine("Amount Owed: ");
+            decimal amount = VerifyDecimalIntput();
+            Console.WriteLine("Date of Accident: ");
+            DateTime accidentDate = VerifyDateTimeInput();
+            DateTime claimDate = VerifyDateTimeInput();
+            IClaim claim = new Claim(claimId, claimType, description, amount, accidentDate, claimDate);
+            bool wasAdded = _claimRepo.AddClaimToQueue(claim);
+            OperationStatus(wasAdded);
         }
-
         private bool HandleNextClaim()
         {
             Console.WriteLine("Would you like to handle the next claim? Y/N");
@@ -67,10 +93,25 @@ namespace Claims
             else
                 return true;
         }
-
+        private void PrintAllClaims()
+        {
+            var claims = _claimRepo.GetClaims();
+            foreach (IClaim claim in claims)
+            {
+                claim.ToString();
+            }
+        }
+        private void MenuPrompt()
+        {
+            Console.WriteLine("Please select from the following options\n" +
+                "1. See All Claims\n" +
+                "2. Handle Next Claim\n" +
+                "3. Enter a New Claim" +
+                "4. Exit");
+        }
         private bool VerifyBoolInput()
         {
-            bool successful = true;
+            bool successful = false;
             while (!successful)
             {
                 string input = Console.ReadLine().ToLower();
@@ -87,24 +128,22 @@ namespace Claims
             return successful;
         }
 
-        private void PrintAllClaims()
+        private DateTime VerifyDateTimeInput()
         {
-            throw new NotImplementedException();
-        }
-
-        private void MenuPrompt()
-        {
-            Console.WriteLine("Please select from the following options\n" +
-                "1. See All Claims\n" +
-                "2. Handle Next Claim\n" +
-                "3. Enter a New Claim" +
-                "4. Exit");
-
-
-        }
-        private void SeedData()
-        {
-            throw new NotImplementedException();
+            bool success = false;
+            DateTime date = new DateTime(01, 01, 01);
+            while (!success)
+            {
+                if (DateTime.TryParse(Console.ReadLine(), out date))
+                {
+                    success = true;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid Input please try again.");
+                }
+            }
+            return date;
         }
         private int VerifyIntput()
         {
@@ -141,7 +180,7 @@ namespace Claims
             }
             return input;
         }
-        private static void OperationStatus(bool success)
+        private void OperationStatus(bool success)
         {
             Console.Clear();
             if (success)
@@ -155,5 +194,9 @@ namespace Claims
                 Console.ReadKey();
             }
         }
+        //private void SeedData()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
