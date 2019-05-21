@@ -25,9 +25,18 @@ namespace Claims
             }
             set
             {
-                claimValid = DateOfClaimUTC - DateOfIncidentUTC >= TimeSpan.FromDays(30);
+                claimValid = DateOfClaimUTC - DateOfIncidentUTC <= TimeSpan.FromDays(30);
             }
         }
-
+        public override string ToString()
+        {
+            return $"Claim ID: {Id}\n" +
+                $"Claim Type: {Type}\n" +
+                $"Description: {Description}\n" +
+                $"Amount Approved: {Amount}\n" +
+                $"Date of Incident: {DateOfIncidentUTC}\n" +
+                $"Date of Claim: {DateOfClaimUTC}\n" +
+                $"Claim was submitted within 30 days: {IsValid}";
+        }
     }
 }
